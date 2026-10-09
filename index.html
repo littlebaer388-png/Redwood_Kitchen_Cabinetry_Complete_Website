@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore kitchen cabinets, storage furniture and selected home products from Redwood Kitchen & Cabinetry. Enquire directly on WhatsApp.">
+<title>Redwood Kitchen &amp; Cabinetry | Kitchen & Storage Solutions</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Redwood Kitchen and Cabinetry home">
+    <span class="brand-mark">R<span>K</span></span>
+    <span class="brand-name">REDWOOD <small>KITCHEN &amp; CABINETRY</small></span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav id="mainNav" aria-label="Main navigation">
+    <a href="#home">Home</a><a href="#shop">Shop Products</a><a href="#about">About Us</a><a href="#contact">Contact Us</a>
+  </nav>
+  <a class="header-cta" href="https://wa.me/27710331241" target="_blank" rel="noopener">WhatsApp Us ↗</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">KITCHEN • STORAGE • HOME</p>
+    <h1>Make room for<br><em>better living.</em></h1>
+    <p class="hero-copy">Explore kitchen cabinetry and practical storage pieces from our product range. Ask us about sizes, finishes, prices and availability.</p>
+    <div class="hero-actions"><a class="button button-red" href="#shop">SHOP OUR RANGE <span>→</span></a><a class="text-link" href="#contact">Talk to our team ↗</a></div>
+    <div class="hero-note"><span class="note-dot"></span> Convenient ordering through WhatsApp</div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-image-frame"><img src="images/product-07.jpg" alt="Modern white kitchen cabinet set" onerror="this.src='images/product-07.jpeg'"></div>
+    <div class="image-label"><span>OUR PRODUCT RANGE</span><b>Thoughtful storage. Everyday function.</b></div>
+    <div class="hero-stamp">DESIGNED<br>FOR HOME</div>
+  </div>
+</section>
+
+<section class="trust-strip" aria-label="Our service">
+  <div><span class="trust-icon">▦</span><p><b>Kitchen &amp; Storage</b><small>Explore practical furniture options</small></p></div>
+  <div><span class="trust-icon">♡</span><p><b>Helpful Enquiries</b><small>Ask us about product details</small></p></div>
+  <div><span class="trust-icon">↗</span><p><b>WhatsApp Ordering</b><small>Speak to us directly</small></p></div>
+</section>
+
+<section class="shop-section section-pad" id="shop">
+  <div class="section-heading">
+    <div><p class="eyebrow">EXPLORE THE COLLECTION</p><h2>Find your next <em>favourite.</em></h2><p class="section-copy">Browse the product pictures supplied to us. Product details and prices can be confirmed with our team.</p></div>
+    <span class="catalogue-count" id="catalogueCount">PRODUCT RANGE</span>
+  </div>
+  <div class="catalogue-tools">
+    <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products"></label>
+    <div class="category-filters" id="categoryFilters" aria-label="Filter by category"></div>
+  </div>
+  <div class="product-grid" id="productGrid" aria-live="polite"></div>
+  <p class="no-results" id="noResults" hidden>No products match your search. Try another word or category.</p>
+</section>
+
+<section class="about-section section-pad" id="about">
+  <div class="about-photo"><img src="images/product-11.jpg" alt="Kitchen cabinet with natural wood-effect finish"></div>
+  <div class="about-content"><p class="eyebrow">A PRACTICAL APPROACH</p><h2>Useful pieces.<br><em>Helpful service.</em></h2><p>Redwood Kitchen &amp; Cabinetry brings together a range of kitchen cabinets and storage furniture for customers to explore. We aim to make product enquiries straightforward, with direct communication and clear information before you decide.</p><p>Our online catalogue showcases the photos provided. Please contact us to confirm product measurements, materials, finishes, pricing, delivery and current availability.</p><a class="button button-dark" href="https://wa.me/27710331241" target="_blank" rel="noopener">ASK US A QUESTION ↗</a></div>
+</section>
+
+<section class="contact-section section-pad" id="contact">
+  <div><p class="eyebrow">LET'S TALK</p><h2>Ready to enquire<br>about a product?</h2><p>Message us on WhatsApp for prices, availability and delivery information.</p><a class="button button-red" href="https://wa.me/27710331241?text=Hello%2C%20I%20am%20interested%20in%20your%20product%20range.%20Please%20provide%20more%20information." target="_blank" rel="noopener">CHAT ON WHATSAPP ↗</a></div>
+  <div class="contact-card">
+    <div class="contact-item"><span class="contact-symbol">✆</span><div><small>PHONE / WHATSAPP</small><a href="https://wa.me/27710331241" target="_blank" rel="noopener">071 033 1241</a></div></div>
+    <div class="contact-item"><span class="contact-symbol">⌖</span><div><small>BUSINESS ADDRESS</small><p>58 Peter Place, Lyme Park<br>Sandton, Johannesburg, 2091<br>South Africa</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=58+Peter+Place%2C+Lyme+Park%2C+Sandton%2C+Johannesburg%2C+2091%2C+South+Africa" target="_blank" rel="noopener">GET DIRECTIONS ↗</a></div></div>
+    <p class="address-note">Please contact us to confirm arrangements before visiting. Walk-in availability has not been confirmed.</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">R<span>K</span></span><span class="brand-name">REDWOOD <small>KITCHEN &amp; CABINETRY</small></span></a><p>Kitchen and storage products, with convenient WhatsApp enquiries.</p><div class="footer-bottom"><span>© <span id="year"></span> Redwood Kitchen &amp; Cabinetry</span><span>Prices and availability confirmed on enquiry.</span><a href="#home">BACK TO TOP ↑</a></div></footer>
+<script src="products.js"></script><script src="script.js"></script>
+</body>
+</html>
